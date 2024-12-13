@@ -1,0 +1,16 @@
+{
+	"name": "azuredatafactorystepone",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "true",
+			"factoryStagingLSReferenceName": "Linked_service_ADLS",
+			"factoryStagingLSType": "LinkedServiceReference"
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b1d497eb-689b-45ec-b64e-97ef2412d157",
+		"tenantId": "9e24ab90-5262-486d-a992-c821dba4f496"
+	}
+}
